@@ -1,0 +1,23 @@
+.brand-gradient {
+    background: #0091ff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #0091ff, #32cd4c);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #0091ff, #32cd4c);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.banner-holder,
+.main-page-header {
+    background-image: url(https://vui.unsplash.com/resize?height=256&quality=60&type=auto&url=https%3A%2F%2Fsearched-images.s3.us-west-2.amazonaws.com%2F53888781-a011-43bd-9946-db2bc31ed52d%3FX-Amz-Algorithm%3DAWS4-HMAC-SHA256%26X-Amz-Credential%3DAKIAQ4GRIA4Q6KECABEK%252F20230818%252Fus-west-2%252Fs3%252Faws4_request%26X-Amz-Date%3D20230818T091009Z%26X-Amz-Expires%3D86400%26X-Amz-SignedHeaders%3Dhost%26X-Amz-Signature%3D013bed63e68b4dc2d91a3e40e7f52acbf3c75530d8751505affe1e8457133446&sign=Cw3lM2BxJHa-0dddLJHLb-AraVYk7dTohMjLKhPEW_8);
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.custom-nav {
+    backdrop-filter: blur(8px);
+}
